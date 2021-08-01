@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url("./../../Assets/cloud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+}
+
+.text
+{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-top: 10px;
+    color: #93C2C7;
+    background: -webkit-linear-gradient(#0BD8ED, #0B4AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box
+{
+    color: #B7B7B7;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 400px;
+    border: 3px solid #6ACBD5;
+    margin: 6% auto;
+    border-radius: 5px;
+    line-height: 2em;
+    
+}
+.header
+{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.header input
+{
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid #B7B7B7;
+}
+.search-box
+{
+    color: black;
+}
+.main-body
+{
+    
+    padding: 10px;
+}
