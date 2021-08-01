@@ -11,7 +11,7 @@ const Card = () => {
     const [search,setSearch] = useState("Kolkata")
 
     useEffect(() => {
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=18721e577be4da0f96c06f2acdb7ebc9`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid= ` \\paste your api id
         const fetchApi = async () =>
         {
             const response = await fetch(url);
